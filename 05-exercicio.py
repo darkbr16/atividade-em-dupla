@@ -1,0 +1,13 @@
+import os
+os.system('cls')
+import time
+
+print("=== ESCOLA APRENDER+ - GERADOR DE TABUADA ===")
+
+numero = int(input("Digite um número para ver sua tabuada: "))
+
+print(f"\nTabuada do {numero}:")
+for i in range(1, 11):
+    resultado = numero * i
+    print(f"{numero} x {i} = {resultado}")
+    time.sleep(1)
