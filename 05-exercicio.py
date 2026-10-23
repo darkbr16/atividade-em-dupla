@@ -2,7 +2,8 @@ import os
 os.system('cls')
 import time
 
-print("=== ESCOLA APRENDER+ - GERADOR DE TABUADA ===")
+print('=== ESCOLA APRENDER+ ===')
+print('=== GERADOR DE TABUADA ===')
 
 numero = int(input("Digite um número para ver sua tabuada: "))
 
